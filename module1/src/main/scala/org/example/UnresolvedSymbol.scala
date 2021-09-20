@@ -3,7 +3,7 @@ package org.example
 import cats.Show
 import cats.syntax.show._
 
-object Main1 extends App {
+object UnresolvedSymbol extends App {
   class MyException {
     def getMessage: String = this.show
   }

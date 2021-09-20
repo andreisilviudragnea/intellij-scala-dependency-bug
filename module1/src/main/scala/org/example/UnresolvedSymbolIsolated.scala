@@ -2,7 +2,7 @@ package org.example
 
 import scala.language.implicitConversions
 
-object Main2 extends App {
+object UnresolvedSymbolIsolated extends App {
   trait Show[T] {
     def show(t: T): String
   }
