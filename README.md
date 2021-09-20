@@ -1,0 +1,1 @@
+# intellij-scala-dependency-bug
