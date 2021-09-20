@@ -17,6 +17,7 @@
         <scala-minor.version>6</scala-minor.version>
         <scala.version>${scala-major.version}.${scala-minor.version}</scala.version>
         <cats-effect.version>2.5.4</cats-effect.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencyManagement>
@@ -51,6 +52,11 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <args>
+                        <arg>-feature</arg>
+                    </args>
+                </configuration>
             </plugin>
         </plugins>
     </build>
