@@ -20,5 +20,9 @@
             <groupId>org.typelevel</groupId>
             <artifactId>cats-effect_${scala-major.version}</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http_${scala-major.version}</artifactId>
+        </dependency>
     </dependencies>
 </project>

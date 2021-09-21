@@ -32,6 +32,11 @@
                 <artifactId>cats-effect_${scala-major.version}</artifactId>
                 <version>${cats-effect.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.typesafe.akka</groupId>
+                <artifactId>akka-http_${scala-major.version}</artifactId>
+                <version>10.2.6</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
